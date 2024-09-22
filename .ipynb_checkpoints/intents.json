@@ -1,0 +1,94 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day"],
+      "responses": ["Hello, thanks for visiting", "Good to see you again", "Hi there, how can I help?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "hours",
+      "patterns": ["What hours are you open?", "What are your hours?", "When are you open?"],
+      "responses": ["We're open every day 9am-9pm", "Our hours are 9am-9pm every day"]
+    },
+    {
+      "tag": "mopeds",
+      "patterns": ["Which mopeds do you have?", "What kinds of mopeds are there?", "What do you rent?"],
+      "responses": ["We rent Yamaha, Piaggio and Vespa mopeds", "We have Piaggio, Vespa and Yamaha mopeds"]
+    },
+    {
+      "tag": "payments",
+      "patterns": ["Do you take credit cards?", "Do you accept Mastercard?", "Are you cash only?"],
+      "responses": ["We accept VISA, Mastercard and AMEX", "We accept most major credit cards"]
+    },
+    {
+      "tag": "opentoday",
+      "patterns": ["Are you open today?", "When do you open today?", "What are your hours today?"],
+      "responses": ["We're open every day from 9am-9pm", "Our hours are 9am-9pm every day"]
+    },
+    {
+      "tag": "insurance",
+      "patterns": ["Do you offer insurance for mopeds?", "Is insurance included in the rental?", "Can I add insurance to my moped rental?"],
+      "responses": ["Yes, we offer insurance options for all our mopeds. You can add it to your rental for an additional fee.", "Insurance is available for our mopeds. Please ask about the options and pricing when you make a reservation."]
+    },
+    {
+      "tag": "moped_types",
+      "patterns": ["What types of mopeds do you offer?", "Can you tell me about the different moped models?", "What are the available moped models?"],
+      "responses": ["We offer several types of mopeds including Yamaha, Piaggio, and Vespa. Each model has its own features and specifications.", "Our moped rental fleet includes Yamaha, Piaggio, and Vespa models, each with different features and performance characteristics."]
+    },
+    {
+      "tag": "moped_features",
+      "patterns": ["What are the features of your mopeds?", "Can you describe the features of the Yamaha moped?", "What features do the Vespa and Piaggio mopeds have?"],
+      "responses": ["Our mopeds come with various features including automatic transmission, comfortable seating, and efficient fuel consumption. Specific features vary by model.", "The Yamaha moped offers a 150cc engine and sporty design. The Vespa features a stylish look and advanced safety features. Piaggio provides a comfortable ride with a 125cc engine."]
+    },
+    {
+      "tag": "payment_methods",
+      "patterns": ["What payment methods do you accept?", "Can I pay with a credit card?", "Do you accept cash or other payment methods?"],
+      "responses": ["We accept all major credit cards including VISA, Mastercard, and AMEX. We also accept cash payments.", "For your convenience, we accept major credit cards and cash payments. Please ensure you have a valid payment method when you arrive."]
+    },
+    {
+      "tag": "premium_benefits",
+      "patterns": ["What are the benefits of being a premium customer?", "Can you tell me about the advantages for premium members?", "What does a premium membership include?"],
+      "responses": ["Premium customers enjoy benefits such as priority service, exclusive discounts, and free upgrades. Membership includes additional perks and personalized support.", "As a premium member, you receive benefits like expedited service, special offers, and enhanced support. Enjoy a more personalized rental experience with added privileges."]
+    },
+    {
+      "tag": "moped_pricing",
+      "patterns": ["What are the prices for different types of mopeds?", "How much does it cost to rent a moped?", "Can you provide pricing information for mopeds?", "What are the rental rates for your mopeds?", "How much do different moped models cost?"],
+      "responses": ["Our moped rental prices vary depending on the model and rental duration. For a Piaggio, the rate starts at $25 per day, while a Vespa begins at $30 per day. Yamaha models are available from $28 per day.", "We offer competitive rates for our mopeds. Piaggio rentals start at $25 per day, Vespa at $30, and Yamaha at $28. Longer rental periods may qualify for discounts.", "The cost of renting a moped depends on the type and duration. Piaggio rentals are priced at $25 per day, Vespa at $30, and Yamaha at $28. We also offer weekly and monthly rates.", "For daily rentals, Piaggio mopeds are $25, Vespa mopeds are $30, and Yamaha $28. Discounts are available for extended rental periods.", "Our moped rental fees are as follows: Piaggio $25 per day, Vespa $30 per day, and Yamaha $28 per day. Please inquire about special rates for longer durations."]
+    },
+    {
+      "tag": "piaggio_features_pricing",
+      "patterns": ["What are the features and cost of the Piaggio moped?", "Can you tell me about the Piaggio moped pricing and specifications?", "How much does a Piaggio moped cost to rent and what are its features?", "What features does the Piaggio moped have and what is its rental price?", "What is the rental rate for a Piaggio and what are its specifications?"],
+      "responses": ["The Piaggio moped features a 125cc engine, automatic transmission, and a comfortable seat for two. The rental rate is $25 per day.", "Our Piaggio moped comes with a 125cc engine, automatic gearbox, and ample storage. It is available for $25 per day.", "The Piaggio moped, equipped with a 125cc engine and automatic transmission, is priced at $25 per day. It offers smooth rides and is ideal for city commuting.", "For $25 per day, you can rent a Piaggio moped that includes a 125cc engine, automatic transmission, and features like a spacious seat and storage compartment.", "The Piaggio moped is priced at $25 per day and includes features such as a 125cc engine, automatic transmission, and comfortable seating for two."]
+    },
+    {
+      "tag": "vespa_features_pricing",
+      "patterns": ["What are the features and cost of the Vespa moped?", "Can you provide details on Vespa moped pricing and specifications?", "How much does a Vespa moped cost to rent and what are its features?", "What are the rental rates for a Vespa and what features does it have?", "Tell me about the Vespa moped's cost and its key features."],
+      "responses": ["The Vespa moped is equipped with a 150cc engine, stylish design, and advanced safety features. The rental price is $30 per day.", "For $30 per day, you can rent a Vespa moped which includes a 150cc engine, premium design, and excellent fuel efficiency.", "Our Vespa moped features a 150cc engine and modern design with added safety features. It is available for $30 per day.", "The Vespa moped, with its 150cc engine and stylish appearance, is priced at $30 per day. It offers both performance and elegance.", "Rent a Vespa moped for $30 per day and enjoy its 150cc engine, sleek design, and top-notch safety features."]
+    },
+    {
+      "tag": "yamaha_features_pricing",
+      "patterns": ["What are the features and cost of the Yamaha moped?", "How much does it cost to rent a Yamaha moped and what are its specifications?", "Can you describe the Yamaha moped's features and rental rate?", "What is the rental price for a Yamaha and what features does it offer?", "Tell me about the Yamaha moped's pricing and its key features."],
+      "responses": ["The Yamaha moped features a 150cc engine, sporty design, and reliable performance. The rental rate is $28 per day.", "For $28 per day, you can rent a Yamaha moped which includes a 150cc engine and sporty design with excellent handling.", "Our Yamaha moped, available for $28 per day, includes a 150cc engine and offers a sporty ride with reliable performance.", "The Yamaha moped, priced at $28 per day, features a 150cc engine and sporty design, providing a dynamic riding experience.", "Rent a Yamaha moped for $28 per day and enjoy its 150cc engine and sporty features designed for a fun ride."]
+    },
+    {
+      "tag": "contact",
+      "patterns": ["How can I contact you?", "What is your phone number?", "How do I get in touch with you?", "Can I call or email you?"],
+      "responses": ["You can contact us at 1-800-MYMOPED or email us at info@mymoped.com", "For inquiries, please call us at 1-800-MYMOPED or send an email to info@mymoped.com"]
+    },
+    {
+      "tag": "location",
+      "patterns": ["Where are you located?", "What is your address?", "Can you provide your location details?"],
+      "responses": ["We are located at 123 Moped Lane, Scooter City", "Our address is 123 Moped Lane, Scooter City"]
+    }
+  ]
+}
